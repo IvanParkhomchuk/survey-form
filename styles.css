@@ -19,3 +19,10 @@ body {
   font-family: Century Gothic;
   font-size: 20px;
 }
+
+#survey-form {
+  background-color: rgb(255, 217, 0);;
+  color: white;
+  font-family: Century Gothic;
+  text-align: center;
+}
