@@ -1,14 +1,18 @@
 /*#e0b045 - golden*/
+/*#2EE59D - green(button)*/
+/*rgba(46,229,157,.4) - green(button shadow)*/
 
 body {
   background-color: #1e1f26;
   font-family: Century Gothic;
+  
 }
 
 #title {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  margin-bottom: auto;
   color: #a8a8a8;
   font-size: 50px;
 }
@@ -18,13 +22,20 @@ body {
   color: #a8a8a8;
   font-family: Century Gothic;
   font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: auto;
 }
 
 #survey-form {
   background-color: #e0b045;
   color: white;
   text-align: center;
-  margin-top: 20px;
+  margin: 0px auto;
+  border-radius: 5px;
+  max-width: 900px;
+  min-width: 600px;
+  width: 75%;
+  padding-bottom: 50px;
 }
 
 input {
@@ -41,6 +52,7 @@ option {
 
 .form {
   font-size: 20px;
+  margin
 }
 
 .button {
