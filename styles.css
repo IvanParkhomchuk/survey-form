@@ -1,0 +1,21 @@
+/*#e0b045 - golden*/
+
+body {
+  background-color: #1e1f26;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: #a8a8a8;
+  font-family: Century Gothic;
+  font-size: 50px;
+}
+
+#description {
+  text-align: center;
+  color: #a8a8a8;
+  font-family: Century Gothic;
+  font-size: 20px;
+}
