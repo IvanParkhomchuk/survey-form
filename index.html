@@ -9,13 +9,32 @@
     <h1 id="title">Wtfshe4ka Survey Room</h1>
     <p id="description"><cite>Thank you for taking the time to see my new project</cite></p>
 
-    <form id="survey-form">
+    <form id="survey-form" class="form">
       <label for="name">Name</label><br>
-      <input type="text" id="name" name="name"><br><br>
+      <input type="text" id="name" name="name" id="name-label" placeholder="Enter your name"><br><br>
       <label for="email">Email</label><br>
-      <input type="email" id="email" name="email"><br><br>
+      <input type="email" id="email" name="email" id="email-label" placeholder="Enter your Email"><br><br>
+
       <label for="number">Age</label><br>
-      <input type="number" id="number" name="number" min="10" max="100"><br><br>
+      <input type="number" id="number" name="number" min="10" max="100" id="number-label" placeholder="Age"><br><br>
+
+      <label for="role">Which option best describes your current role?</label><br>
+      <select name="role" id="role" id="dropdown">
+        <option value="Select current role">Select current role</option>
+        <option value="Student">Student</option>
+        <option value="Full Time Job">Full Time Job</option>
+        <option value="Full Time Learner">Full Time Learner</option>
+        <option value="Prefer Not To Say">Prefer Not To Say</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+
+      <label>Would you recommend freeCodeCamp to a friend?</label><br>
+      <input type="radio" id="Of course" name="radio" value="Of course" checked>
+      <label for Of course>Of course</label><br>
+      <input type="radio" id="Maybe" name="radio" value="Maybe">
+      <label for Maybe>Maybe</label><br>
+      <input type="radio" id="Ahah no" name="radio" value="Ahah no">
+      <label Ahah no>Ahah no</label><br><br>
     </form>
   </body>
 </html>
