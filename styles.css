@@ -63,7 +63,6 @@ option {
   height: 45px;
   line-height: 45px;
   border-radius: 45px;
-  margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
@@ -91,4 +90,14 @@ option {
 .font-size2 {
   font-size: 20px;
   border-radius: 5px;
+}
+
+.radio {
+  max-width: 550px;
+  margin: 0 auto 50px 30px;
+  text-align: left;
+}
+
+select {
+  margin-bottom: 60px;
 }

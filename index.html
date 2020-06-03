@@ -12,60 +12,62 @@
     <p id="description"><cite>Thank you for taking the time to see my new project</cite></p>
 
     <form id="survey-form" class="form">
-      <div>
-        <label for="name" class="font-size1">Name</label><br>
-        <input type="text" id="name" name="name" id="name-label" class="font-size1" placeholder="Enter your name"><br><br>
-        <label for="email" class="font-size1">Email</label><br>
-        <input type="email" id="email" name="email" id="email-label" class="font-size1" placeholder="Enter your Email"><br><br>
-      </div>
+      <div class="radio">
+        <div>
+          <label for="name" class="font-size1">Name</label><br>
+          <input type="text" id="name" name="name" id="name-label" class="font-size1" placeholder="Enter your name"><br><br>
+          <label for="email" class="font-size1">Email</label><br>
+          <input type="email" id="email" name="email" id="email-label" class="font-size1" placeholder="Enter your Email"><br><br>
+        </div>
 
-      <div>
-      <label for="number" class="font-size1">Age</label><br>
-      <input type="number" id="number" name="number" min="10" max="100" id="number-label" class="font-size1" placeholder="Age"><br><br>
-      </div>
+        <div>
+          <label for="number" class="font-size1">Age</label><br>
+          <input type="number" id="number" name="number" min="10" max="100" id="number-label" class="font-size1" placeholder="Age"><br><br>
+        </div>
 
-      <div>
-        <label for="role" class="font-size2">Which option best describes your current role?</label><br>
-        <select name="role" id="role" id="dropdown" class="font-size2">
-          <option value="Select current role">Select current role</option>
-          <option value="Student">Student</option>
-          <option value="Full Time Job">Full Time Job</option>
-          <option value="Full Time Learner">Full Time Learner</option>
-          <option value="Prefer Not To Say">Prefer Not To Say</option>
-          <option value="Other">Other</option>
-        </select><br><br>
-      </div>
+        <div>
+          <label for="role" class="font-size1">Which option best describes your current role?</label><br>
+          <select name="role" id="role" id="dropdown" class="font-size2">
+            <option value="Select current role">Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer Not To Say">Prefer Not To Say</option>
+            <option value="Other">Other</option>
+          </select><br><br>
+        </div>
 
-      <div>
-        <label>Would you recommend freeCodeCamp to a friend?</label><br>
-        <input type="radio" id="Of course" name="radio" value="Of course" checked>
-        <label for="Of course">Of course</label><br>
-        <input type="radio" id="Maybe" name="radio" value="Maybe">
-        <label for Maybe>Maybe</label><br>
-        <input type="radio" id="Ahah no" name="radio" value="Ahah no">
-        <label Ahah no>Ahah no</label><br><br>
-      </div>
+        <div>
+          <label class="font-size1">Would you recommend freeCodeCamp to a friend?</label><br>
+          <input type="radio" id="Of course" name="radio" value="Of course" checked>
+          <label for="Of course">Of course</label><br>
+          <input type="radio" id="Maybe" name="radio" value="Maybe">
+          <label for Maybe>Maybe</label><br>
+          <input type="radio" id="Ahah no" name="radio" value="Ahah no">
+          <label Ahah no>Ahah no</label><br><br>
+        </div>
 
-      <div>
-        <label>What would you like to see improved?</label><br>
-        <input type="checkbox" id="Front-end" name="checkbox" value="Front-end">
-        <label for="Front-end">Front-end</label><br>
-        <input type="checkbox" id="Back-end" name="checkbox" value="Back-end">
-        <label for="Back-end">Back-end</label><br>
-        <input type="checkbox" id="Wiki" name="checkbox" value="Wiki">
-        <label for="Wiki">Wiki</label><br>
-        <input type="checkbox" id="Forum" name="Forum" value="Forum">
-        <label for="Forum">Forum</label><br>
-        <input type="checkbox" id="Additional Courses" name="checkbox" value="Additional Courses">
-        <label for="Additional Courses">Additional Courses</label><br><br>
-      </div>
+        <div>
+          <label class="font-size1">What would you like to see improved?</label><br>
+          <input type="checkbox" id="Front-end" name="checkbox" value="Front-end">
+          <label for="Front-end">Front-end</label><br>
+          <input type="checkbox" id="Back-end" name="checkbox" value="Back-end">
+          <label for="Back-end">Back-end</label><br>
+          <input type="checkbox" id="Wiki" name="checkbox" value="Wiki">
+          <label for="Wiki">Wiki</label><br>
+          <input type="checkbox" id="Forum" name="Forum" value="Forum">
+          <label for="Forum">Forum</label><br>
+          <input type="checkbox" id="Additional Courses" name="checkbox" value="Additional Courses">
+          <label for="Additional Courses">Additional Courses</label><br><br>
+        </div>
 
-      <label class="font-size2">Any comments or suggestions?</label><br>
-      <textarea name="message" placeholder="Enter your comment here..." rows="5" cols="80">
+        <label class="font-size1">Any comments or suggestions?</label><br>
+        <textarea name="message" placeholder="Enter your comment here..." rows="6" cols="85">
       
-      </textarea><br><br>
+        </textarea><br><br>
 
-      <input type="submit" value="Submit" class="button">
+        <input type="submit" value="Submit" class="button">
+      </div>
     </form>
   </body>
 </html>
