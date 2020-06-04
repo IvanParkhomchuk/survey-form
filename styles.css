@@ -26,6 +26,16 @@ body {
   margin-top: auto;
 }
 
+#title1 {
+
+}
+
+@media (max-width: 460px) {
+  #title1 {
+    
+  }
+}
+
 #survey-form {
   background-color: #e0b045;
   color: white;
@@ -36,6 +46,12 @@ body {
   min-width: 600px;
   width: 75%;
   padding-bottom: 50px;
+}
+
+@media (max-width: 460px) {
+  #survey-form {
+
+  }
 }
 
 input {
