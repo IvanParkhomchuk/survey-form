@@ -30,13 +30,13 @@ body {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #title1 {
-    width: 450px;
+    width: 500px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #title {
     text-align: center;
   }
@@ -53,9 +53,9 @@ body {
   padding-bottom: 50px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   #survey-form {
-    width: 450px;
+    width: 500px;
   }
 }
 
@@ -134,8 +134,8 @@ textarea {
   height: 100px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   textarea {
-    width: 400px;
+    width: 300px;
   }
 }
