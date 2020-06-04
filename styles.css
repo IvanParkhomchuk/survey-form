@@ -33,13 +33,12 @@ body {
 @media (max-width: 460px) {
   #title1 {
     text-align: center;
-    width: 460px;
   }
 }
 
 @media (max-width: 460px) {
   #title {
-    text-align: center;
+  
   }
 }
 
@@ -56,9 +55,7 @@ body {
 
 @media (max-width: 460px) {
   #survey-form {
-    display: flex;
-    justify-content: center;
-    width: 460px;
+    text-align: center;
   }
 }
 
