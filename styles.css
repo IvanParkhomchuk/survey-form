@@ -30,9 +30,15 @@ body {
 
 }
 
-@media (max-width: 460px) {
+@media (max-width: 450px) {
   #title1 {
+    width: 450px;
+  }
+}
 
+@media (max-width: 450px) {
+  #title {
+    text-align: center;
   }
 }
 
@@ -43,14 +49,13 @@ body {
   margin: 0px auto;
   border-radius: 5px;
   max-width: 900px;
-  min-width: 460px;
   width: 75%;
   padding-bottom: 50px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 450px) {
   #survey-form {
-
+    width: 450px;
   }
 }
 
@@ -122,4 +127,15 @@ select {
 .border-control:focus {
   border: 1px solid;
   border-color: #1e1f26;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+}
+
+@media (max-width: 400px) {
+  textarea {
+    width: 400px;
+  }
 }
