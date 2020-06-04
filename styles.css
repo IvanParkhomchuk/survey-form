@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 460px) {
   #title1 {
-    
+
   }
 }
 
@@ -43,7 +43,7 @@ body {
   margin: 0px auto;
   border-radius: 5px;
   max-width: 900px;
-  min-width: 600px;
+  min-width: 460px;
   width: 75%;
   padding-bottom: 50px;
 }
