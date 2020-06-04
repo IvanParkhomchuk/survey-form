@@ -63,6 +63,17 @@ body {
   }
 }
 
+.formclass {
+
+}
+
+@media (max-width: 460px) {
+  .formclass {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 input {
   font-family: Century Gothic;
 }
@@ -138,8 +149,20 @@ textarea {
   height: 100px;
 }
 
+/* 
 @media (max-width: 300px) {
   textarea {
     width: 300px;
+  }
+}
+*/
+
+#page {
+
+}
+
+@media (max-width: 460px) {
+  #page {
+    
   }
 }
