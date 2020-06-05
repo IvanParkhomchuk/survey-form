@@ -35,6 +35,7 @@ body {
   #title {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-top: 60px;
     margin-bottom: auto;
     color: #a8a8a8;
@@ -81,8 +82,8 @@ body {
 
 @media (max-width: 460px) {
   #radio {
-    text-align: left;
-    margin-right: 10px;
+    text-align: center;
+    margin-right: 30px;
   }
 }
 
@@ -157,7 +158,7 @@ select {
 }
 
 #areatext {
-  width: 600px;
+  width: 100%;
   height: 100px;
 }
 
