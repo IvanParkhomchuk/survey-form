@@ -24,7 +24,7 @@ body {
 
 @media (max-width: 460px) {
   #title1 {
-    
+    text-align: center;
   }
 }
 
@@ -83,6 +83,7 @@ body {
 @media (max-width: 460px) {
   #radio {
     text-align: left;
+    margin-right: 10px;
   }
 }
 
