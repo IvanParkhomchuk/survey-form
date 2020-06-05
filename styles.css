@@ -37,6 +37,12 @@ body {
   font-size: 50px;
 }
 
+@media (max-width: 460px) {
+  #title {
+    text-align: center;
+  }
+}
+
 #description {
   text-align: center;
   color: #a8a8a8;
@@ -57,7 +63,7 @@ body {
   padding-bottom: 50px;
 }
 
-@media (max-width: 460px) {
+@media (width: 460px) {
   #survey-form {
 
   }
@@ -76,7 +82,7 @@ body {
 
 @media (max-width: 460px) {
   #radio {
-    text-align: center;
+    text-align: left;
   }
 }
 
