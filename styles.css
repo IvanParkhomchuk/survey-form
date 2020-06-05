@@ -59,7 +59,7 @@ body {
 
 @media (max-width: 460px) {
   #survey-form {
-    margin: 0;
+
   }
 }
 
@@ -77,6 +77,17 @@ body {
 @media (max-width: 460px) {
   #radio {
     text-align: center;
+  }
+}
+
+.nameEmail {
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+@media (max-width: 460px) {
+  .nameEmail {
+    font-size: medium;
   }
 }
 
@@ -144,7 +155,7 @@ select {
   height: 100px;
 }
 
-@media (max-width: 450px) {
+@media (width: 400px) {
   #areatext {
 
   }
